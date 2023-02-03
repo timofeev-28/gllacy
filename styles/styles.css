@@ -1,0 +1,58 @@
+/*GLOBAL*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* .btn-reset {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+} */
+
+/* .list-reset {
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+} */
+
+/* .link-reset {
+  text-decoration: none;
+  color: inherit;
+} */
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
